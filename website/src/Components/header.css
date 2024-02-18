@@ -1,0 +1,19 @@
+
+.bg{
+    background-image:url("/public/assets/ext.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+.logo img{
+    position: absolute;
+    height: 100%;
+    left:25%;
+    /* width: 100%; */
+    /* background-position: center; */
+    justify-content:center;
+}
