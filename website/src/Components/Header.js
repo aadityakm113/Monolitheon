@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className='bg'>
         <div className='logo'>
-          <img src='/assets/textlogo.png'/>
+          <img src='/assets/textlogo.png' alt="background logo"/>
         </div>
     </div>
   )
