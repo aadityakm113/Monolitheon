@@ -1,5 +1,3 @@
-import React from 'react'
-//import './Components/about/about.css'
 const About = () => {
   return (
     <div className='about_container'>
