@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.header,
+.hero_container {
+    background: transparent;
+}
+
+h1 {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+    background-color: #1e1e1e; 
+    color: white; 
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    border-top: 1px solid #333; 
+    padding: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    font-family: "Arial", sans-serif;
+}
+
+
+/* DESKTOP */
+@media(min-width: 800px) {
+    .header {
+        height: 100vh;
+    }
+
+    .header_container {
+        min-height: 70%;
+        width: 100%;
+        background: transparent;
+    }
+
+    .bg {
+        background-image: url("/assets/background.webp");
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -100;
+    }
+
+    .logo img {
+        position: absolute;
+        height: 100%;
+        left: 25%;
+        justify-content: center;
+    }
+
+    h1 {
+        font-family: "Metal Mania", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .footer_container {
+        font-size: 0.9rem;
+        padding: 15px;
+      }
+    
+}
