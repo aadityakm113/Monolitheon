@@ -3,7 +3,6 @@ body {
     padding: 0;
     color: white;
     background-color: black;
-    background-color: black;
 }
 
 h1 {
@@ -20,6 +19,25 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+    background-color: #1e1e1e; 
+    color: white; 
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    border-top: 1px solid #333; 
+    padding: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    font-family: "Arial", sans-serif;
+}
+
+
 /* DESKTOP */
 @media(min-width: 800px) {
     .header {
@@ -56,9 +74,9 @@ h1 {
         font-style: normal;
     }
 
-    .metal-mania-regular {
-        font-family: "Metal Mania", system-ui;
-        font-weight: 400;
-        font-style: normal;
-    }
+    .footer_container {
+        font-size: 0.9rem;
+        padding: 15px;
+      }
+    
 }

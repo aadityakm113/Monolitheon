@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "../../App.css"
 const Footer = () => {
   return (
     <div className='footer_container'>
-      <p>Website Created by Aaditya Kumar Muktavarapu</p>
+      <p>Website made by Aaditya Kumar Muktavarapu</p>
     </div>
   )
 }
