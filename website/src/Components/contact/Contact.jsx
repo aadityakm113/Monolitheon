@@ -6,8 +6,8 @@ const Contact = () => {
         <div className='contact'>
             <h4>Contact Us At</h4>
             <p>monolitheon@gmail.com</p>
-            <p>+91 9966778554 Mitch</p>
             <p>+91 9502663840 Aaditya</p>
+            <p>+91 9966778554 Mitch</p>
         </div>
     </div>
   )

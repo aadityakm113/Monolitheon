@@ -15,9 +15,19 @@ const Gallery = () => {
     },
     {
       id: 3,
-      title: "Wacken Metal Battle",
+      title: "Wacken Metal Battle 2023",
       image: "wmb.webp"
     },
+    {
+      id: 4,
+      title: "Wacken Metal Battle 2024",
+      image: "wmb24.webp"
+    },
+    {
+      id: 5,
+      title: "Prog Encounters 3.0",
+      image: "PE.webp" 
+    }
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
